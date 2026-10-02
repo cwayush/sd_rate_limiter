@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/src/generated/prisma
+
+.env
+.env.*
+!.env.example
+!.env.docker.example

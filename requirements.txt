@@ -1,0 +1,8 @@
+npm install -D typescript tsx @types/node @types/express
+npx tsc --init
+
+npm install @prisma/client@7.10.0
+npm install -D prisma@7.10.0
+npx prisma init --datasource-provider postgresql
+npm install @prisma/adapter-pg pg
+npm install -D @types/pg
